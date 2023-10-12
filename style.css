@@ -28,33 +28,32 @@ body {
     width: 100%;
     margin: 0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
+  
 }
 
 .header {
     background-color: #fef7f0;
-    width: 100%;
     padding: 0.5rem 2.5rem;
     font-weight: 500;
     position: fixed;
     top: 0%;
     bottom: auto;
+    z-index: 100;
     left: 0%;
     right: 0%;
-    z-index: 100;
-    display: flex;
-    justify-content: space-between;
+ 
    
 }
-.header_text{
+
+.nav_cont {
     width: 100%;
     max-width: 80rem;
-    margin: 0 auto;
-}
-.nav_cont {
-    /* width: 100%; */
     align-items: center;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
